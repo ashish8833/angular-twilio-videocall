@@ -1,0 +1,8 @@
+<button (click)="initVideo($event)">Click Here</button>
+<video #video width="320" height="240"></video>
+<!-- <video #twilio width="320" height="240"></video> -->
+<div id="twilio" #twilio>
+  <p>remote video</p>
+</div>
+
+<p>Room Id: {{ room?.sid }}</p>
